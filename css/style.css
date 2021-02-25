@@ -40,7 +40,7 @@ a:hover {
 
 .section-header {
     text-align: center;
-    margin: 60px 0 32px 0;
+    margin: 16px 0 16px 0;
 }
 
 .title {
@@ -262,7 +262,7 @@ ABOUT
 }
 
 .thumbnail-img {
-    height: 228px;
+    height: 200px;
     filter: brightness(70%);
     border-radius: 16px;
     object-fit: cover;
@@ -325,9 +325,9 @@ ABOUT
         opacity: 100%;
     }
 
-    /* #home {
+    #home {
         height: calc(100vh - var(--topbar-height));
-    } */
+    }
 
     #home, #about, #education, #skill, #project, #contact, #footer {
         padding-left: 0px;
