@@ -355,6 +355,10 @@ ABOUT
         width: 100%;
         z-index: 2;
     }
+    
+    .section-header {
+        margin-top: 40px;
+    }
 
 }
 
