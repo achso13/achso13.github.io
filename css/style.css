@@ -325,10 +325,6 @@ ABOUT
         opacity: 100%;
     }
 
-    #home {
-        height: calc(100vh - var(--topbar-height));
-    }
-
     #home, #about, #education, #skill, #project, #contact, #footer {
         padding-left: 0px;
         margin-left: 0px;
