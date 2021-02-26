@@ -324,7 +324,7 @@ ABOUT
         margin-left: 0px;
         opacity: 100%;
     }
-
+    
     #home, #about, #education, #skill, #project, #contact, #footer {
         padding-left: 0px;
         margin-left: 0px;
@@ -355,7 +355,7 @@ ABOUT
         width: 100%;
         z-index: 2;
     }
-    
+
     .section-header {
         margin-top: 4rem;
     }
