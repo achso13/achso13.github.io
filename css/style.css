@@ -143,9 +143,14 @@ SIDEBAR
     margin: 32px 0;
 }
 
+.sidebar-link {
+    text-decoration: none;
+}
+
 .sidebar-logo {
     color: var(--colored);
     font-family: 'Yellowtail', cursive;
+    text-decoration: none;
 }
 
 .sidebar-content {
