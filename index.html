@@ -51,7 +51,7 @@
                     </button>
                 </div>
                 <nav class="hidden md:flex md:space-x-16 ">
-                    <a href="index.html" class="text-lg font-bold text-white hover:text-red-700">
+                    <a href="index.html#main" class="text-lg font-bold text-white hover:text-red-700">
                         Home
                     </a>
                     <a href="index.html#about" class="text-lg font-bold text-white hover:text-red-700">
@@ -94,7 +94,7 @@
                     </div>
                     <div class="mt-6">
                         <nav class="grid gap-y-8">
-                            <a href="index.html" class="-m-3 p-3 flex items-center rounded-md hover:bg-red-700 ">
+                            <a href="index.html#main" class="-m-3 p-3 flex items-center rounded-md hover:bg-red-700 ">
                                 <span class="ml-3 text-base font-bold  text-white">
                                     Home
                                 </span>
@@ -234,14 +234,17 @@
     <!-- End Section My Skills -->
 
     <!-- Section Projek -->
-    <section class="py-16 lg:py-24 bg-neutral-800" id="project">
+    <section class="py-12 lg:py-24 bg-red-700" id="project">
         <div class="mx-auto px-8 justify-center sm:px-6 sm:mx-auto max-w-7xl ">
-            <div class="text-center mb-24">
-                <h2 class="text-white font-extrabold text-4xl leading-normal md:leading-loose md:text-5xl">MY <span
-                        class="text-red-700">PROJECT.</span>
+            <div class="text-center">
+                <h2 class="text-white font-extrabold text-4xl leading-normal md:leading-loose md:text-5xl">MY PROJECT.
                 </h2>
-                <p class="text-neutral-500 font-medium text-xl">all of the project that i've done.</p>
+                <p class="text-neutral-400 font-medium text-xl">all of the project that i've done.</p>
             </div>
+        </div>
+    </section>
+    <section class="py-12 lg:py-24 bg-neutral-800" id="project">
+        <div class="mx-auto px-8 justify-center sm:px-6 sm:mx-auto max-w-7xl ">
             <div class="grid md:grid-cols-2 gap-10 lg:gap-20 items-center">
                 <div class="md:col-span-1">
                     <h3 class="text-white font-bold text-3xl leading-normal md:leading-loose md:text-4xl">
@@ -383,11 +386,11 @@
 
     <!-- Section Contact Me -->
     <section class="bg-neutral-800" id="contact">
-        <div class="mx-auto px-8 justify-center sm:px-6 sm:mx-auto max-w-7xl">
+        <div class="mx-auto justify-center sm:mx-auto">
             <div class="grid md:grid-cols-2 gap-x-16 gap-y-16 items-center">
-                <img class="h-full mx-auto" src="src/img/map.png" alt="">
-                <div class="text-center lg:text-left">
-                    <h3 class="text-white font-extrabold text-3xl md:text-5xl leading-normal ">
+                <img class="h-full w-full mx-auto" src="src/img/map.png" alt="">
+                <div class="text-center lg:text-left px-8 sm:px-6">
+                    <h3 class="text-white font-extrabold text-3xl lg:text-5xl md:py-8 leading-normal ">
                         INTERESTED WORKING WITH ME?
                     </h3>
                     <p class="text-neutral-300 font-medium text-xl mb-5">You can send me a mail!</p>
@@ -439,7 +442,8 @@
 
     <!-- Back to top button -->
     <a href="#"
-        class="z-40 fixed text-neutral-900 bg-neutral-700 rounded-md hover:bg-neutral-800 hover:text-red-700 text-center bottom-8 right-8 py-2 px-2 flex justify-center">
+        class="z-40 fixed text-neutral-900 bg-neutral-500 rounded-md hover:bg-neutral-600 text-center bottom-8 right-8 py-2 px-2 flex justify-center"
+        id="backtotop">
         <span class="material-icons-outlined">
             arrow_upward
         </span>
