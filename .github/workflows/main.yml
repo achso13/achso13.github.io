@@ -1,0 +1,14 @@
+on:
+  push:
+    branches: main
+jobs:
+  deploy:
+    name: upload to cpanel
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sebastianpopp/ftp-action@v2.0.0
+      - with:
+          host: ${{secrets.FTP_HOST}}
+          user: ${{secrets.FTP_USERNAME}}
+          password: ${{secrets.FTP_PASSWORD}}
+          remoteDir: ${{secrets.DIRECTORY}}
