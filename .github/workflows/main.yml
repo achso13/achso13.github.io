@@ -6,10 +6,12 @@ jobs:
     name: Deploy to cpanel
     runs-on: ubuntu-latest
     steps:
-      - name: Executing server update
-        uses: sebastianpopp/ftp-action@v2.0.0
+      - name: Get latest code
+        uses: actions/checkout@v3
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          host: ${{secrets.FTP_HOST}}
-          user: ${{secrets.FTP_USERNAME}}
+          server: ${{secrets.FTP_HOST}}
+          username: ${{secrets.FTP_USERNAME}}
           password: ${{secrets.FTP_PASSWORD}}
-          remoteDir: ${{secrets.DIRECTORY}}
+          server-dir: ${{secrets.DIRECTORY}}
