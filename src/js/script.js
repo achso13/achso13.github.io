@@ -49,7 +49,7 @@ $(document).ready(function () {
 });
 
 let options = {
-    strings: ['ACHMAD', 'A STUDENT', 'A FRONTEND'],
+    strings: ['ACHMAD', 'A FULLSTACK DEVELOPER'],
     typeSpeed: 30,
     backSpeed: 30,
     loop: true
